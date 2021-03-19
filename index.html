@@ -5,12 +5,16 @@
       <script>
         function promt() {
         var query = prompt("whatt you serch"); 
-        document.getElementById("demo").href = "http://en.wikipedia.org/wiki/" + query;
+        document.getElementById("weki").href = "http://en.wikipedia.org/wiki/" + query;
+        document.getElementById("gogl").href = "http://google.com/search?q=" + query;
         }
       </script>
     </head>
     <body>
       <button type="button" onclick="promt()">entr yor serch</button>
-      <a id="demo" href = http://en.wikipedia.org>serch on wikepeda</a>
+      <a id="weki" href = http://en.wikipedia.org>
+        serch on wikepeda</a>
+      <a id="gogl" href = http://google.com/search?q=empty>
+        serch on gogly</a>
     </body>
   </html>
