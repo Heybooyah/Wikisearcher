@@ -2,5 +2,13 @@
   <html>
     <head>
       <title> "searchy search" </title>
+      <script>
+        function myFunction() {
+        var query = prompt("whatt you serch","search 'ere"); 
+        document.getElementById("demo").href = "en.wikipedia.org/wiki/" + query;
+      </script>
     </head>
+    <body>
+      <a id="demo">Search or something idk</a>
+      <button type="button" onclick="myFunction()">entr serch</button>
   </html>
